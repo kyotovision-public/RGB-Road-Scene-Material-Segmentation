@@ -19,6 +19,7 @@ Ubuntu 18.04 LTS
 python 3.8
 
 pytorch==1.11.0 (other recent versions may also be okay, but not sure)
+
 torchvision==0.12.0 (it needs to match the pytorch version if different pytorch version is used)
 
 opencv_contrib_python==4.5.2 (other recent versions may also be okay, but not sure)
