@@ -13,15 +13,20 @@ Please note that the list_folder1 and list_folder2 in the dataset folder denote 
 The trained rmsnet weights for KITTI-Materials and the ImageNet pre-trained weight for MiT-B2 encoder can be found at: https://drive.google.com/drive/u/0/folders/1a5geigz8PKRlOYv-L2ePCfh0FlymW37H . 
 
 ## Usage
-### Prerequisites
+### Requirements
+Ubuntu 18.04 LTS
 
-Requirements:
-Ubuntu 18.04 LTS\\
-python 3.8\\
-pytorch==1.11.0 (other recent versions may also be okay, but not sure)\\
+python 3.8
+
+pytorch==1.11.0 (other recent versions may also be okay, but not sure)
 torchvision==0.12.0 (it needs to match the pytorch version if different pytorch version is used)
-opencv_contrib_python==4.5.2 (other recent versions may also be okay, but not sure)\\
-tqdm\\
-functools\\
-einops (recent version)\\
+
+opencv_contrib_python==4.5.2 (other recent versions may also be okay, but not sure)
+
+tqdm
+
+functools
+
+einops (recent version)
+
 timm (recent version)
