@@ -46,7 +46,7 @@ To use our code, please
 
 (2) put the pre-trained weight 'mit_b2.pth' into 'weights/init/'
 
-(3) put the trained weights for our RMSNet into 'weights/rmsnet/' (only for evaluation, no need to do so if training from scratch)
+(3) put the trained weights for our RMSNet into 'weights/rmsnet/' (only for evaluation, unnecessary if training from scratch)
 
 (4) use python or ipython to run test.py with trained weights (e.g., for python, insert python test.py)
 
