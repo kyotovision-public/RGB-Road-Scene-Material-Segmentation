@@ -15,7 +15,9 @@ Uncompress the folder and move it to 'data/KITTI_Materials/'
 Please note that the list_folder1 and list_folder2 in the dataset folder denote the split-1 and split-2.
 
 ## Download trained models and ImageNet pre-trained weight
-The trained rmsnet weights for KITTI-Materials and the ImageNet pre-trained weight for MiT-B2 encoder can be found at: [Google Drive](https://drive.google.com/drive/u/0/folders/1a5geigz8PKRlOYv-L2ePCfh0FlymW37H) . 
+The trained rmsnet weights for KITTI-Materials can be found at: [Google Drive](https://drive.google.com/drive/u/0/folders/1a5geigz8PKRlOYv-L2ePCfh0FlymW37H) . 
+
+The ImageNet pre-trained weight for MiT-B2 encoder can be found at: [mit_b2](https://drive.google.com/file/d/1m8fsG812o6KotF1NVo0YuiSfSn18TAOA/view?usp=sharing) .
 
 ## Usage
 ### Requirements
