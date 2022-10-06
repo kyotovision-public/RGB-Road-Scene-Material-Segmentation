@@ -1,7 +1,7 @@
 # RGB Road Scene Material Segmentation, ACCV2022
 This repository provides an inplementation of our paper RGB Road Scene Material Segmentation in ACCV2022.  
 
-If you use our code and data, please cite our paper (wait to be released).
+If you use our code and data, please cite our paper (to be released).
 
 The implementation of the encoder Mix-Transformer (MiT) and the corresponding ImageNet pre-trained model are adopted from the official project: [SegFormer](https://github.com/NVlabs/SegFormer) .
 
