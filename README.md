@@ -22,6 +22,12 @@ The dataloader, utils, files for training and evaluation are adopted/modified fr
 
 ## KITTI-Materials dataset
 
+### License
+
+The KITTI-Materials dataset is provided under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).
+
+### Download
+
 Our KITTI-Materials dataset is available as `data.zip` at: [Google Drive](https://drive.google.com/drive/u/0/folders/1a5geigz8PKRlOYv-L2ePCfh0FlymW37H).
 Uncompress the zip to extract files into `data/KITTI_Materials/`.
 Please note that the `list_folder1` and `list_folder2` in the dataset folder denote the `split-1` and `split-2` respectively.
@@ -92,6 +98,6 @@ Loss: 120.971
 
 ### Train from scrath
 
-Run `train.py` to train RMSNet from scratch.  It requires a GPU with 40GB or more.
+Run `train.py` to train RMSNet from scratch.  It requires a GPU with 40GB or more RAM.
 
 Note that, if you want to train with your customized settings, please directly change the corresponding hyperparameters (e.g., learning rate, epochs, Sync BN, and etc.) in the `train.py`, instead of using argparse from outside.
