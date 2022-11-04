@@ -17,8 +17,6 @@ from utils.saver import Saver
 from utils.summaries import TensorboardSummary
 from utils.metrics import Evaluator
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0" 
-
 
 ###########
 #######
