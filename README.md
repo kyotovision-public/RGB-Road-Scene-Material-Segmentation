@@ -23,7 +23,7 @@ The dataloader, utils, files for training and evaluation are adopted/modified fr
 ## KITTI-Materials dataset
 
 Our KITTI-Materials dataset is available as `data.zip` at: [Google Drive](https://drive.google.com/drive/u/0/folders/1a5geigz8PKRlOYv-L2ePCfh0FlymW37H).
-Uncompress the folder and move it to 'data/KITTI_Materials/'
+Uncompress the zip to extract files into `data/KITTI_Materials/`.
 Please note that the `list_folder1` and `list_folder2` in the dataset folder denote the `split-1` and `split-2` respectively.
 
 ## Pretrained models
@@ -57,6 +57,28 @@ Put the dataset and pretrained weights as follows.
 2. Put the pretrained weight `mit_b2.pth` into `weights/init/`.
 3. Put the pretrained weights for our RMSNet into `weights/rmsnet/` (only for evaluation, unnecessary if training from scratch).
 
+As a result, you should have the following directory structure.
+
+```
+.
+├── LICENSE
+├── README.md
+├── data
+│   └── KITTI_Materials
+│       ├── kitti_advanced_classes_weights.npy
+│       ├── list_folder1/
+│       ├── list_folder2/
+│       └── train/
+├── test.py
+├── train.py
+└── weights
+    ├── init
+    │   └── mit_b2.pth
+    ├── rmsnet
+    │   ├── rmsnet_split1.pth
+    │   └── rmsnet_split2.pth
+    └── save_path/
+```
 
 ### Test with pretrained weights
 
