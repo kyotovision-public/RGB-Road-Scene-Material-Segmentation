@@ -98,6 +98,17 @@ Loss: 120.971
 
 ### Train from scrath
 
-Run `train.py` to train RMSNet from scratch.  It requires a GPU with 40GB or more RAM.
+Run `train.py` to train RMSNet from scratch.  It requires a GPU with 40GB or more RAM. The output should be as follows (the mIoU may fluctuate by 1%).
+```
+=>Epoches 299, learning rate = 0.0000,                 previous best = 0.4604
+Train loss: 0.153: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [01:35<00:00,  1.91s/it][Epoch: 299, numImages:   800]
+Loss: 7.645
+save path: weights/save_path/
+use the ImageNet pre-trained model
+Test loss: 0.937: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:11<00:00,  1.03it/s]Validation:
+[Epoch: 299, numImages:   236]
+Acc:0.8492282398960047, Acc_class:0.6227014463833873, mIoU:0.44816753792204533, fwIoU: 0.7624162078171609
+Loss: 11.241
+```
 
 Note that, if you want to train with your customized settings, please directly change the corresponding hyperparameters (e.g., learning rate, epochs, Sync BN, and etc.) in the `train.py`, instead of using argparse from outside.
