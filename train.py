@@ -339,7 +339,7 @@ if __name__ == "__main__":
     args.lr = 0.00006 # suggested by the SegFormer
     args.workers = 2
     args.epochs = 300 # 300 by default
-    args.batch_size = 16
+    args.batch_size = 12
     args.batch_size_val = 20
     args.gpu_ids = "0" 
     args.backbone = "mit_b2" #
