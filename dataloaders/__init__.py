@@ -46,7 +46,7 @@ def make_data_loader(args, **kwargs):
 
         num_class = train_set.NUM_CLASSES
         train_loader = DataLoader(train_set, batch_size=args.batch_size, shuffle=True, collate_fn=my_collate_fn, drop_last=True, **kwargs)
-        val_loader = DataLoader(val_set, batch_size=args.batch_size, shuffle=False, collate_fn=my_collate_fn, drop_last=True, **kwargs)
+        val_loader = DataLoader(val_set, batch_size=args.batch_size_val, shuffle=False, collate_fn=my_collate_fn, drop_last=True, **kwargs)
         test_loader = None
 
         return train_loader, val_loader, test_loader, num_class
